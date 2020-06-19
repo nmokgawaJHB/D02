@@ -5,8 +5,8 @@ void ft_is_negative(int n);
 
 {
 	if (n > '0') 
-	putchar('N');
+	ft_putchar('N');
 	else 
-		putchar('P');
+		ft_putchar('P');
 
 }
