@@ -1,8 +1,15 @@
 
-<stdio.h>
-
+#include <unistd.h>
+void ft_putchar(char letter);
 {
-	for (char c = 'a'; c <= 'z'; ++c)
-		printf("%c ", c);
-	printf("\n");
+ write(1, &letter, 1);
 }
+
+void ft_print_alphabet(void)
+
+{ char letter;
+   	letter = 'a';
+   	while (letter <= 'z') 
+	ft_putchar(letter++); 
+}
+
