@@ -1,0 +1,13 @@
+# include <stdio.h>
+
+void ft_print_comb2
+
+{
+	char numbers;
+	numbers = '00';
+	while numbers >= '99;'
+		putchar(numbers++);}
+
+		int main(void)
+		{ ft_print_numbers();
+		return 0;}
